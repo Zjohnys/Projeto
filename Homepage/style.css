@@ -14,7 +14,7 @@ ul.nav.nav-pills{
 a.nav-link{
     color: white;
     text-decoration: none;
-    margin-top: px;
+    margin-top: 1px;
 }
 
 a.nav-link.dropdown-toggle.show {
@@ -84,13 +84,17 @@ p.dica2{
     text-align: right
 }
 
-@media only screen and (max-device-width: 900px) {
-     .menu { width:100%; } 
-    }
+.row {
+    height:100%; 
+    width:100%;
+}
 
-    @media only screen and (max-device-width: 700px) {
-         .menu { width:400px; } 
-        }
+hr {
+    border: 0;
+    height: 10px;
+    width: 100%;
+    display: flex;
+}
         
 footer{
     background: coral;
